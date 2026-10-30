@@ -1,0 +1,408 @@
+{
+  "data_source": "https://bugs.openjdk.org/rest/api/2/search?jql=issuetype = JEP ORDER BY key ASC",
+  "metrics": {
+    "P1": {
+      "new": {
+        "delivered_1y": 110,
+        "n": 136,
+        "share": 0.8088235294117647,
+        "window": [
+          "2018-01-01",
+          "2023-09-30"
+        ]
+      },
+      "old": {
+        "delivered_1y": 45,
+        "n": 120,
+        "share": 0.375,
+        "window": [
+          "2014-07-01",
+          "2017-08-31"
+        ]
+      }
+    },
+    "P2": {
+      "by_outcome": {
+        "Withdrawn": 8,
+        "open:Active": 1,
+        "open:Candidate": 5,
+        "open:Completed": 3
+      },
+      "n": 211,
+      "not_delivered_5y": 17,
+      "share": 0.08056872037914692,
+      "window": [
+        "2014-07-01",
+        "2020-12-31"
+      ]
+    },
+    "P3": {
+      "by_status": {
+        "Draft": 60,
+        "Submitted": 8
+      },
+      "n": 68,
+      "older_than_3y": 47,
+      "share": 0.6911764705882353
+    },
+    "P4": {
+      "new": {
+        "n": 85,
+        "releases": [
+          22,
+          27
+        ],
+        "rounds": 40,
+        "share": 0.47058823529411764
+      },
+      "old": {
+        "n": 74,
+        "releases": [
+          12,
+          17
+        ],
+        "rounds": 19,
+        "share": 0.25675675675675674
+      }
+    },
+    "descriptives": {
+      "created_year_hist": {
+        "2010": 1,
+        "2011": 55,
+        "2012": 18,
+        "2013": 18,
+        "2014": 87,
+        "2015": 22,
+        "2016": 23,
+        "2017": 40,
+        "2018": 38,
+        "2019": 30,
+        "2020": 29,
+        "2021": 36,
+        "2022": 25,
+        "2023": 39,
+        "2024": 50,
+        "2025": 32,
+        "2026": 20
+      },
+      "delivered_per_release": {
+        "10": {
+          "incubator": 0,
+          "max_round": 0,
+          "n": 12,
+          "preview": 0
+        },
+        "11": {
+          "incubator": 0,
+          "max_round": 0,
+          "n": 17,
+          "preview": 0
+        },
+        "12": {
+          "incubator": 0,
+          "max_round": 1,
+          "n": 8,
+          "preview": 1
+        },
+        "13": {
+          "incubator": 0,
+          "max_round": 2,
+          "n": 5,
+          "preview": 2
+        },
+        "14": {
+          "incubator": 2,
+          "max_round": 2,
+          "n": 16,
+          "preview": 3
+        },
+        "15": {
+          "incubator": 1,
+          "max_round": 2,
+          "n": 14,
+          "preview": 3
+        },
+        "16": {
+          "incubator": 3,
+          "max_round": 3,
+          "n": 17,
+          "preview": 1
+        },
+        "17": {
+          "incubator": 2,
+          "max_round": 2,
+          "n": 14,
+          "preview": 1
+        },
+        "18": {
+          "incubator": 2,
+          "max_round": 3,
+          "n": 9,
+          "preview": 1
+        },
+        "19": {
+          "incubator": 2,
+          "max_round": 4,
+          "n": 7,
+          "preview": 4
+        },
+        "20": {
+          "incubator": 3,
+          "max_round": 5,
+          "n": 7,
+          "preview": 4
+        },
+        "21": {
+          "incubator": 1,
+          "max_round": 6,
+          "n": 15,
+          "preview": 6
+        },
+        "22": {
+          "incubator": 1,
+          "max_round": 7,
+          "n": 12,
+          "preview": 7
+        },
+        "23": {
+          "incubator": 1,
+          "max_round": 8,
+          "n": 12,
+          "preview": 8
+        },
+        "24": {
+          "incubator": 1,
+          "max_round": 9,
+          "n": 24,
+          "preview": 7
+        },
+        "25": {
+          "incubator": 1,
+          "max_round": 10,
+          "n": 18,
+          "preview": 4
+        },
+        "26": {
+          "incubator": 1,
+          "max_round": 11,
+          "n": 10,
+          "preview": 4
+        },
+        "27": {
+          "incubator": 1,
+          "max_round": 12,
+          "n": 9,
+          "preview": 4
+        },
+        "28": {
+          "incubator": 0,
+          "max_round": 0,
+          "n": 1,
+          "preview": 0
+        },
+        "8": {
+          "incubator": 0,
+          "max_round": 0,
+          "n": 56,
+          "preview": 0
+        },
+        "9": {
+          "incubator": 1,
+          "max_round": 1,
+          "n": 91,
+          "preview": 0
+        },
+        "None": {
+          "incubator": 0,
+          "max_round": 0,
+          "n": 17,
+          "preview": 0
+        }
+      },
+      "delivered_round_ordinals": {
+        "Incubator": {
+          "1": 8,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "2": 4,
+          "3": 2,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1
+        },
+        "Preview": {
+          "1": 22,
+          "2": 20,
+          "3": 9,
+          "4": 5,
+          "5": 2,
+          "6": 1,
+          "7": 1
+        }
+      },
+      "draft_submitted_oldest": [
+        [
+          "JDK-8046127",
+          "2011-11-29",
+          "JEP 137: Diagnostic-Command Framework"
+        ],
+        [
+          "JDK-8046153",
+          "2012-08-15",
+          "JEP 163: Enable NUMA Mode by Default When Appropriate"
+        ],
+        [
+          "JDK-8046159",
+          "2012-10-22",
+          "JEP 169: Larval State for Value Objects"
+        ],
+        [
+          "JDK-8046172",
+          "2013-04-02",
+          "JEP 182: Policy for Retiring javac -source and -target Options"
+        ],
+        [
+          "JDK-8046180",
+          "2013-06-13",
+          "JEP 190: Pluggable Static Analyzers"
+        ],
+        [
+          "JDK-8046178",
+          "2013-12-16",
+          "JEP 188: Java Memory Model Update"
+        ],
+        [
+          "JDK-8044507",
+          "2014-06-02",
+          "JMX Specific Annotations for Registration of Managed Resources"
+        ],
+        [
+          "JDK-8068562",
+          "2015-01-06",
+          "javadoc tags to distinguish API, implementation, specification, and notes"
+        ],
+        [
+          "JDK-8132243",
+          "2015-07-23",
+          "Optimize Final Field Loads In Generated Code"
+        ],
+        [
+          "JDK-8158765",
+          "2016-06-06",
+          "Isolated Methods"
+        ],
+        [
+          "JDK-8171275",
+          "2016-12-15",
+          "Certificate Transparency"
+        ],
+        [
+          "JDK-8179037",
+          "2017-04-20",
+          "Improve IPv6 support"
+        ],
+        [
+          "JDK-8179657",
+          "2017-05-05",
+          "provide stable USDT probe points on JVM compiled methods"
+        ],
+        [
+          "JDK-8180647",
+          "2017-05-19",
+          "Race exclusion for confined data"
+        ],
+        [
+          "JDK-8182862",
+          "2017-06-26",
+          "unboxed argument lists for method handles"
+        ]
+      ],
+      "first_candidate_year_hist": {
+        "2014": 118,
+        "2015": 48,
+        "2016": 22,
+        "2017": 24,
+        "2018": 26,
+        "2019": 23,
+        "2020": 27,
+        "2021": 25,
+        "2022": 15,
+        "2023": 27,
+        "2024": 36,
+        "2025": 31,
+        "2026": 17
+      },
+      "proposed_to_targeted_days": {
+        "max": 64,
+        "median": 11,
+        "n": 353
+      },
+      "resolution_hist": {
+        "Delivered": 391,
+        "None": 95,
+        "Rejected": 2,
+        "Withdrawn": 75
+      },
+      "resolved_minus_ga_days": {
+        "median": -46.0,
+        "n": 322,
+        "within_90": 173
+      },
+      "status_event_to_hist": {
+        "Active": 2,
+        "Candidate": 453,
+        "Closed": 488,
+        "Completed": 405,
+        "Draft": 160,
+        "In Progress": 2,
+        "Integrated": 355,
+        "New": 1,
+        "Open": 8,
+        "Proposed to Drop": 5,
+        "Proposed to Target": 414,
+        "Submitted": 523,
+        "Targeted": 356
+      },
+      "status_hist": {
+        "Active": 2,
+        "Candidate": 11,
+        "Closed": 468,
+        "Completed": 6,
+        "Draft": 60,
+        "Integrated": 7,
+        "Submitted": 8,
+        "Targeted": 1
+      },
+      "withdrawn_by_year": {
+        "2014": 3,
+        "2015": 1,
+        "2016": 1,
+        "2017": 5,
+        "2018": 10,
+        "2019": 6,
+        "2020": 5,
+        "2021": 4,
+        "2022": 9,
+        "2023": 8,
+        "2024": 6,
+        "2025": 11,
+        "2026": 6
+      }
+    },
+    "n_issues": 563,
+    "n_truncated_changelogs": 0
+  },
+  "refetched": 0,
+  "snapshot_date": "2026-10-30",
+  "total_reported": 563,
+  "verdicts": {
+    "P1": "HELD",
+    "P2": "FAILED",
+    "P3": "HELD",
+    "P4": "HELD"
+  }
+}
