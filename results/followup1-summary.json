@@ -1,0 +1,242 @@
+{
+  "H1": {
+    "median_days": 36.5,
+    "n": 126,
+    "over_365": 8,
+    "verdict": "HELD"
+  },
+  "H2": {
+    "ever_targeted": 2,
+    "ever_targeted_keys": [
+      "JDK-8046390",
+      "JDK-8196004"
+    ],
+    "n": 20,
+    "share": 0.1,
+    "verdict": "HELD"
+  },
+  "S1": {
+    "P1_new": {
+      "delivered_1y": 108,
+      "n": 136,
+      "share": 0.7941176470588235
+    },
+    "P1_old": {
+      "delivered_1y": 21,
+      "n": 120,
+      "share": 0.175
+    },
+    "P2": {
+      "n": 211,
+      "not_delivered_5y": 17,
+      "share": 0.08056872037914692
+    },
+    "verdicts": {
+      "P1": "HELD",
+      "P2": "FAILED"
+    }
+  },
+  "c0_to_delivery_by_c0_year": {
+    "2014": {
+      "median": 1047.0,
+      "n": 38,
+      "negative": 0
+    },
+    "2015": {
+      "median": 779.5,
+      "n": 48,
+      "negative": 0
+    },
+    "2016": {
+      "median": 516,
+      "n": 17,
+      "negative": 0
+    },
+    "2017": {
+      "median": 278,
+      "n": 21,
+      "negative": 0
+    },
+    "2018": {
+      "median": 195,
+      "n": 21,
+      "negative": 0
+    },
+    "2019": {
+      "median": 173.0,
+      "n": 22,
+      "negative": 0
+    },
+    "2020": {
+      "median": 183,
+      "n": 27,
+      "negative": 0
+    },
+    "2021": {
+      "median": 176.5,
+      "n": 22,
+      "negative": 0
+    },
+    "2022": {
+      "median": 157.5,
+      "n": 14,
+      "negative": 0
+    },
+    "2023": {
+      "median": 166,
+      "n": 27,
+      "negative": 0
+    },
+    "2024": {
+      "median": 165,
+      "n": 33,
+      "negative": 0
+    },
+    "2025": {
+      "median": 155.0,
+      "n": 30,
+      "negative": 0
+    },
+    "2026": {
+      "median": 154.0,
+      "n": 8,
+      "negative": 0
+    }
+  },
+  "ga_mismatches": {},
+  "ga_source_hist": {
+    "None": 17,
+    "jbs": 322,
+    "table": 52
+  },
+  "n_issues": 563,
+  "resolved_minus_ga_by_release": {
+    "10": {
+      "max": 8,
+      "median": -13.0,
+      "min": -92,
+      "n": 12
+    },
+    "11": {
+      "max": 2,
+      "median": -16,
+      "min": -70,
+      "n": 17
+    },
+    "12": {
+      "max": -36,
+      "median": -41.0,
+      "min": -55,
+      "n": 8
+    },
+    "13": {
+      "max": -32,
+      "median": -36,
+      "min": -53,
+      "n": 5
+    },
+    "14": {
+      "max": -18,
+      "median": -28.0,
+      "min": -96,
+      "n": 16
+    },
+    "15": {
+      "max": -25,
+      "median": -58.0,
+      "min": -112,
+      "n": 14
+    },
+    "16": {
+      "max": -9,
+      "median": -46,
+      "min": -98,
+      "n": 17
+    },
+    "17": {
+      "max": 16,
+      "median": -50.0,
+      "min": -147,
+      "n": 14
+    },
+    "18": {
+      "max": -13,
+      "median": -61,
+      "min": -103,
+      "n": 9
+    },
+    "19": {
+      "max": -41,
+      "median": -64,
+      "min": -84,
+      "n": 7
+    },
+    "20": {
+      "max": -8,
+      "median": -40,
+      "min": -63,
+      "n": 7
+    },
+    "21": {
+      "max": 37,
+      "median": -22,
+      "min": -111,
+      "n": 15
+    },
+    "22": {
+      "max": -41,
+      "median": -50.0,
+      "min": -132,
+      "n": 12
+    },
+    "23": {
+      "max": -15,
+      "median": -63.0,
+      "min": -109,
+      "n": 12
+    },
+    "24": {
+      "max": -19,
+      "median": -42.0,
+      "min": -97,
+      "n": 24
+    },
+    "25": {
+      "max": -40,
+      "median": -65.0,
+      "min": -118,
+      "n": 18
+    },
+    "26": {
+      "max": -55,
+      "median": -60.0,
+      "min": -90,
+      "n": 10
+    },
+    "27": {
+      "max": -27,
+      "median": -28,
+      "min": -146,
+      "n": 9
+    },
+    "28": {
+      "max": -158,
+      "median": -158,
+      "min": -158,
+      "n": 1
+    },
+    "8": {
+      "max": 1309,
+      "median": 411.5,
+      "min": 85,
+      "n": 56
+    },
+    "9": {
+      "max": 0,
+      "median": -196,
+      "min": -1093,
+      "n": 91
+    }
+  },
+  "snapshot_date": "2026-10-31"
+}
